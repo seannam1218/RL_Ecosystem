@@ -1,0 +1,47 @@
+{
+    "BeRabbit": {
+        "checkpoints": [
+            {
+                "steps": 3499941,
+                "file_path": "results\\test_rnn64_curiosity\\BeRabbit\\BeRabbit-3499941.onnx",
+                "reward": 6173.311289310455,
+                "creation_time": 1639383568.989874,
+                "auxillary_file_paths": [
+                    "results\\test_rnn64_curiosity\\BeRabbit\\BeRabbit-3499941.pt"
+                ]
+            },
+            {
+                "steps": 3999977,
+                "file_path": "results\\test_rnn64_curiosity\\BeRabbit\\BeRabbit-3999977.onnx",
+                "reward": 5767.160820404689,
+                "creation_time": 1639384982.630378,
+                "auxillary_file_paths": [
+                    "results\\test_rnn64_curiosity\\BeRabbit\\BeRabbit-3999977.pt"
+                ]
+            },
+            {
+                "steps": 4000041,
+                "file_path": "results\\test_rnn64_curiosity\\BeRabbit\\BeRabbit-4000041.onnx",
+                "reward": 5767.160820404689,
+                "creation_time": 1639384982.7484038,
+                "auxillary_file_paths": [
+                    "results\\test_rnn64_curiosity\\BeRabbit\\BeRabbit-4000041.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4000041,
+            "file_path": "results\\test_rnn64_curiosity\\BeRabbit.onnx",
+            "reward": 5767.160820404689,
+            "creation_time": 1639384982.7484038,
+            "auxillary_file_paths": [
+                "results\\test_rnn64_curiosity\\BeRabbit\\BeRabbit-4000041.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.10.0+cpu"
+    }
+}
