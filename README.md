@@ -11,13 +11,11 @@ Eventually, the project could implement a way for players to interact with the e
 ## Environment
 The environment is a 2D surface, which allows for a more efficient neural network training using simpler, abstracted perception modules as opposed to a 3D environment.
 The training environment is randomly populated with objects that the creatures can interact with in some way, and other creatures that are either neutral or are predators to the creature.
-
-## Objects
 Objects include bushes, berry bushes, trees, rocks, and water (WIP).
 
 ## Agents
-Each creature has a hunger status, food to eat in the environment, and optionally a predator. 
-The neural networks generally receive perception, memory, status, previous actions, rewards, and direction information.
+Each creature has a perception modules that can observe the environment to extract meaningful context, food to eat in the environment, and optionally a predator. 
+Their neural networks generally receive perception, memory, status, previous actions, rewards, and direction information, and produces discrete actions such as moving forward, sidestepping, turning, turning head, and eating.
 
 ## Perception Modules
 ### Vision Module
